@@ -7,4 +7,4 @@ let b = Number(input[1]);
 let avg = ((a + b)/2);
 const result = avg.toFixed(1);
 
-console.log(a+b,avg);
+console.log(a+b,result);
