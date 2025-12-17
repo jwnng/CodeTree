@@ -1,0 +1,7 @@
+a = float(input())
+b = float(input())
+c = float(input())
+C = round(c,3)
+print(round(a,3))
+print(round(b,3))
+print(f"{C:.3f}")
