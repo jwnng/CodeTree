@@ -6,7 +6,7 @@ if n == 0 :
         print('MAN')
     else :
         print('BOY')
-elif n == 1 :
+else :
     if age >= 19 :
         print('WAMAN')
     else :
