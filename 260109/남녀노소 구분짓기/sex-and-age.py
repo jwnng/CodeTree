@@ -7,5 +7,5 @@ elif n == 1 and age >= 19 :
     print('WAMAN')
 elif n == 0 and age < 19 :
     print('BOY')
-elif n == 1 and age < 19 :
+else :
     print('GIRL')
