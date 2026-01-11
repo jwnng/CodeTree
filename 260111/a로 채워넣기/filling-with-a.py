@@ -1,5 +1,4 @@
 s = input()
-s1 = s.replace(s[1],'a',1)
-s2 = s1.replace(s1[len(s)-2],'a',1)
-
-print(s2)
+s = s[:1] + 'a' + s[2:]
+s = s[:len(s)-2] + 'a' + s[len(s)-1:]
+print(s)
