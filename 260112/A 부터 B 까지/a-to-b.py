@@ -1,6 +1,6 @@
 a,b = map(int,input().split())
 n = a
-while n < b :
+while n <= b :
     if n % 2 == 1 :
         print(n,end=' ')
         n *= 2
