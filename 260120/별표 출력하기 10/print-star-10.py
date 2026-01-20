@@ -19,3 +19,5 @@ for i in range(n):
         for j in range(n-cnt):
             print("*",end=" ")
     print()
+    if cnt < 0:
+        break
