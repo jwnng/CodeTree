@@ -1,23 +1,10 @@
 n = int(input())
-cnt = 0
-for i in range(n):
+
+for i in range(2*n):
     if i % 2 == 0:
         for j in range(i//2+1):
             print("*",end=" ")
     else :
-        for j in range(n-cnt):
-            print("*",end=" ")
-        cnt += 1
-    print()
-
-for i in range(n):
-    if i % 2 == 0:
-        for j in range(n//2+1-i//2):
-            print("*",end=" ")
-    else :
-        cnt -= 1
-        for j in range(n-cnt):
+        for j in range(n-i//2):
             print("*",end=" ")
     print()
-    if cnt < 0:
-        break
