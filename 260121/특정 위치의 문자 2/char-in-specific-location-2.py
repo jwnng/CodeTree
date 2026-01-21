@@ -1,3 +1,1 @@
-arr = input().split()
-
-print(*arr[1::3])
+print(" ".join(input().split()[1::3]))
