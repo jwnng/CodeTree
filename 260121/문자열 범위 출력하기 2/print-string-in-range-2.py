@@ -1,4 +1,7 @@
 str = input()
 n = int(input())
 
-print(str[-1:-n-1:-1])
+if n >= len(str):
+    print(str[::-1])
+else :
+    print(str[-1:-n-1:-1])
