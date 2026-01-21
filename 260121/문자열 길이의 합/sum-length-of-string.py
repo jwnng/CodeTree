@@ -5,7 +5,7 @@ words = [ input() for _ in range(n)]
 for word in words:
     cnt_sum += len(word)
     for ch in word:
-        if ch == 'a':
+        if ch[0] == 'a':
             cnt += 1 
 
 print(cnt_sum, cnt)
