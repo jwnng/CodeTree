@@ -7,6 +7,8 @@ for i in range(n-1):
     if s[i] == c:
         idx = i
         break
-print(idx)
+
 if idx == -1: 
     print('No')
+else :
+    print(idx)
