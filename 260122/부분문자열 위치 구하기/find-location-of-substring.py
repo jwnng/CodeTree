@@ -6,9 +6,9 @@ n = len(input_str)
 t = len(target_str)
 exists = False
 idx = -1
-for i in range(n-t-1):
+for i in range(n-t+1):
     all_same = True
-    for j in range(t-1):
+    for j in range(t):
         if input_str[j+i] != target_str[j]:
             all_same = False
 
